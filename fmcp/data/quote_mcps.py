@@ -1,4 +1,4 @@
-from fmcp import mcp
+from fmcp.mcp_server import finance_mcp as mcp
 from .chanel.em_srv import Eastmoney
 from .models import Tick, Bar
 

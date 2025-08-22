@@ -1,4 +1,5 @@
 from fmcp import mcp
+from fmcp.data import quote_mcps
 
 if __name__ == "__main__":
     # mcp.run()  # Default: uses STDIO transport. mcp.run(transport="stdio")

@@ -6,6 +6,7 @@ from fmcp import cn_finance_server
 # 创建主 Server
 server = FastMCP("finance mcp server")
 
+# 有些Client不支持引入的多级mcp server
 # 挂载 us/
 server.import_server(yahoo_finance_server.yfinance_mcp, prefix="us/")
 # 挂载 cn/

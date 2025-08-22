@@ -1,4 +1,7 @@
 fastmcp
 requests
-
+pandas
 pydantic
+
+wesockets==13.1
+yfinance

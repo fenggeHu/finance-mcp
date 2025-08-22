@@ -1,4 +1,4 @@
-from fmcp.mcp_server import finance_mcp as mcp
+from fmcp.cn_finance_server import cn_finance_mcp as mcp
 from fmcp.data.chanel.em_srv import Eastmoney
 from fmcp.data.models import Tick, Bar
 

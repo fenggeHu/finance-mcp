@@ -1,6 +1,6 @@
 from fmcp.mcp_server import finance_mcp as mcp
-from .chanel.em_srv import Eastmoney
-from .models import Tick, Bar
+from fmcp.data.chanel.em_srv import Eastmoney
+from fmcp.data.models import Tick, Bar
 
 quote = Eastmoney()
 
